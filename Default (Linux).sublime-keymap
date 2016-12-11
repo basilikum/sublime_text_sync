@@ -17,5 +17,9 @@
     { "keys": ["shift+ctrl+u"], "command": "move_to", "args": {"to": "bol", "extend": true} },
     { "keys": ["shift+ctrl+o"], "command": "move_to", "args": {"to": "eol", "extend": true} },
     { "keys": ["ctrl+n"], "command": "insert", "args": {"characters": "\n"} },
-    {"keys": ["alt+shift+f"], "command": "reindent", "args": {"single_line": false}}
+    {"keys": ["alt+shift+f"], "command": "reindent", "args": {"single_line": false}},
+    { "keys": ["ctrl+h"], "command": "left_delete" },
+    { "keys": ["ctrl+ö"], "command": "right_delete" },
+    { "keys": ["ctrl+alt+h"], "command": "delete_word", "args": { "forward": false } },
+    { "keys": ["ctrl+alt+ö"], "command": "delete_word", "args": { "forward": true } }
 ]
